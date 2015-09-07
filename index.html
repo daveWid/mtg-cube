@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<script src="bower_components/mustache.js/mustache.min.js"></script>
+
+	<style type="text/css">
+		#card-preview {
+			position: fixed;
+			top: 1em;
+			right: 1em;
+		}
+		.cards {
+			padding-left: 0;
+			list-style-type: none;
+			border-top:1px solid #eee;
+		}
+		.cards > li {
+			padding: 0.25em 0;
+			border-bottom:1px solid #eee;
+		}
+
+		.cost {
+			color: #fff;
+			display: inline-block;
+			padding: 0.1875em 0.25em 0;
+			border-radius: 0.5em;
+			text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
+		}
+
+		.common > .cost  { background-color: #000;}
+		.uncommon > .cost { background-color: #6C8B98; }
+		.rare > .cost    { background-color: #9A8048; }
+		.needed   { background-color: rgba(0, 158, 34, 0.15); }
+	</style>
+</head>
+<body>
+
+	<h1>Dave's Cube</h1>
+
+	<div id="card-preview"></div>
+
+	<div id="content">
+
+	</div>
+
+	<div id="lastUpdate"></div>
+
+
+<script id="card-template" type="x-tmpl-mustache">
+<div class="color">
+	<h2>{{color}} <small>({{count}})</small></h2>
+
+	{{#search}}
+	<div class="search">
+		<a href="{{search}}">Search</a>
+	</div>
+	{{/search}}
+
+	<ul class="cards">
+	{{#cards}}
+		<li class="{{rarity}}{{#needed}} needed{{/needed}}">
+			<div class="cost">{{cost}}</div>
+			<a href="http://gatherer.wizards.com/Pages/Search/Default.aspx?name={{link_name}}" class="card" data-preview="{{preview_name}}">{{name}}</a>
+		</li>
+	{{/cards}}
+	</ul>
+</div>
+</script>
+
+<script>
+(function(){
+	// Global vars
+	var cardPreview = document.getElementById('card-preview');
+
+	/**
+	 * Empties the given node.
+	 *
+	 * @param  {HTMLElement} node  The node to empty
+	 * @return {HTMLElement}       The emptied node
+	 */
+	var empty = function(node) {
+		while (node.firstChild) {
+			node.removeChild(node.firstChild);
+		}
+
+		return node;
+	};
+
+	/**
+	 * Processes each colors data to be used by the Mustache rendering engine.
+	 *
+	 * @param  {String} color  The current color
+	 * @param  {Object} data   The card data for a color
+	 * @param  {String} search The search link
+	 * @return {Object}        Data ready for Mustache
+	 */
+	var getTemplateData = function getTemplateData(color, data, search){
+		var templateData = {
+			'color': color,
+			count: data.length,
+			cards: []
+		};
+
+		data.forEach(function(row){
+			var split = row.name.split(' ').map(function(ele){
+				return encodeURIComponent(ele);
+			});
+			row.preview_name = split.join('+');
+			row.link_name = '+[' + split.join(']+[') + ']';
+			templateData.cards.push(row);
+		});
+
+		if (search) {
+			templateData.search = search;
+		}
+
+		return templateData;
+	};
+
+	/**
+	 * Shows the preview
+	 * @param  {[type]} name [description]
+	 * @return {[type]}      [description]
+	 */
+	var showPreview = function showPreview(name){
+		var img = new Image();
+		img.src = 'http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name='+name;
+
+		empty(cardPreview);
+		cardPreview.appendChild(img);
+	};
+
+	/**
+	 * Handles when a card link is active.
+	 *
+	 * @param  {Event} event The current event (mouseover, active...)
+	 */
+	var handleActive = function handleActive(event){
+		if (event.target.classList.contains('card')) {
+			showPreview(event.target.getAttribute('data-preview'));
+		}
+	};
+
+	/**
+	 * Where all the "magic" happens
+	 *
+	 * @param  {object} data The card data
+	 */
+	var render = function render(data){
+		var contentDiv = document.getElementById('content');
+		var lastUpdate = document.getElementById('lastUpdate');
+		var template = document.getElementById('card-template').textContent;
+
+		Mustache.parse(template);
+		lastUpdate.appendChild(document.createTextNode(data.metadata.generated));
+
+		var colors = ['White', 'Blue', 'Black', 'Red', 'Green', 'MultiColor', 'Colorless'];
+		var templateData;
+		colors.forEach(function(color){
+			templateData = getTemplateData(color, data.cards[color], data.metadata.search[color]);
+			contentDiv.innerHTML += Mustache.render(template, templateData);
+		});
+
+		var lists = document.querySelectorAll('.cards');
+		for (var i = 0, len = lists.length; i < len; i++) {
+			lists[i].addEventListener('mouseover', handleActive);
+			lists[i].addEventListener('focus', handleActive, true);
+		}
+	};
+
+	/* // Grab the card data //////////////////////////////////////////////// */
+	var xhr = new XMLHttpRequest();
+	xhr.open('GET', 'cards.json');
+	xhr.addEventListener('load', function(event){
+		var data = JSON.parse(event.target.responseText);
+		render(data);
+	});
+
+	xhr.send();
+})();
+
+/**\/
+http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Dragon+Hunter
+http://gatherer.wizards.com/Pages/Search/Default.aspx?name=+[Smite]+[the]+[Monstrous]
+
+{
+	name: STRING,
+	cost: NUMBER,
+	rarity: 
+}
+/**/
+</script>
+
+</body>
+</html>

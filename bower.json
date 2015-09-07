@@ -1,0 +1,19 @@
+{
+  "name": "mtg-cube",
+  "version": "0.0.0",
+  "authors": [
+    "Dave Widmer <dave@davewidmer.net>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mustache.js": "~2.1.3"
+  }
+}
