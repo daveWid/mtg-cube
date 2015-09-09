@@ -39,6 +39,8 @@
 
 	<h1>Dave's Cube</h1>
 
+	<div class="metadata"></div>
+
 	<div id="card-preview"></div>
 
 	<div id="content">
@@ -50,7 +52,7 @@
 
 <script id="card-template" type="x-tmpl-mustache">
 <div class="color">
-	<h2>{{color}} <small>({{count}})</small></h2>
+	<h2>{{color}} (<small class="count">{{count}}</small>)</h2>
 
 	{{#search}}
 	<div class="search">
@@ -62,11 +64,21 @@
 	{{#cards}}
 		<li class="{{rarity}}{{#needed}} needed{{/needed}}">
 			<div class="cost">{{cost}}</div>
+			{{#name}}
 			<a href="http://gatherer.wizards.com/Pages/Search/Default.aspx?name={{link_name}}" class="card" data-preview="{{preview_name}}">{{name}}</a>
+			{{/name}}
 		</li>
 	{{/cards}}
 	</ul>
 </div>
+</script>
+
+<script id="metadata-template" type="x-tmpl-mustache">
+<ul>
+{{#data}}
+	<li>{{label}}: {{value}}</li>
+{{/data}}
+</ul>
 </script>
 
 <script>
@@ -120,6 +132,41 @@
 	};
 
 	/**
+	 * Grab all the metadata for the cube.
+	 *
+	 * @return {Object} The metadata
+	 */
+	var getMetadata = function getMetadata(){
+		var metadata = { data: [] };
+
+		var counts = document.querySelectorAll('.count');
+		var total = 0;
+		for (var i = 0, len = counts.length; i < len; i++) {
+			total += Number(counts[i].textContent);
+		}
+
+		metadata.data.push({ label: "Total Cards", value: total });
+		metadata.data.push({
+			label: "Common",
+			value: document.querySelectorAll('.common').length
+		});
+		metadata.data.push({
+			label: "Uncommon",
+			value: document.querySelectorAll('.uncommon').length
+		});
+		metadata.data.push({
+			label: "Rare",
+			value: document.querySelectorAll('.rare').length
+		});
+		metadata.data.push({
+			label: "Needed",
+			value: document.querySelectorAll('.needed').length
+		});
+
+		return metadata;
+	};
+
+	/**
 	 * Shows the preview
 	 * @param  {[type]} name [description]
 	 * @return {[type]}      [description]
@@ -152,6 +199,7 @@
 		var contentDiv = document.getElementById('content');
 		var lastUpdate = document.getElementById('lastUpdate');
 		var template = document.getElementById('card-template').textContent;
+		var metadataTemplate = document.getElementById('metadata-template').textContent;
 
 		Mustache.parse(template);
 		lastUpdate.appendChild(document.createTextNode(data.metadata.generated));
@@ -168,6 +216,8 @@
 			lists[i].addEventListener('mouseover', handleActive);
 			lists[i].addEventListener('focus', handleActive, true);
 		}
+
+		document.querySelector('.metadata').innerHTML = Mustache.render(metadataTemplate, getMetadata());
 	};
 
 	/* // Grab the card data //////////////////////////////////////////////// */
