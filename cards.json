@@ -308,6 +308,13 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "1",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Welkin Tern",
         "cost": "2",
         "type": "Creature",
@@ -350,6 +357,20 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "3",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Separatist Voidmage",
         "cost": "4",
         "type": "Creature",
@@ -368,16 +389,44 @@
         "rarity": "uncommon"
       },
       {
+        "name": "",
+        "cost": "4",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Messenger Drake",
         "cost": "5",
         "type": "Creature",
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "5",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "5",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Skyline Predator",
         "cost": "6",
         "type": "Creature",
         "rarity": "uncommon"
+      },
+      {
+        "name": "",
+        "cost": "6",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Tome Scour",
@@ -396,6 +445,20 @@
         "cost": "1",
         "type": "Instant",
         "rarity": "uncommon"
+      },
+      {
+        "name": "",
+        "cost": "1",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "1",
+        "type": "",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Inaction Injunction",
@@ -422,6 +485,20 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "2",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "2",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Paralyzing Grasp",
         "cost": "3",
         "type": "Enchantment - Aura",
@@ -446,6 +523,13 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "3",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Aetherize",
         "cost": "4",
         "type": "Instant",
@@ -464,6 +548,20 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "4",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "4",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Psychic Spiral",
         "cost": "5",
         "type": "Instant",
@@ -474,6 +572,13 @@
         "cost": "5",
         "type": "Instant",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "5",
+        "type": "",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Dismiss into Dream",
@@ -556,6 +661,20 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "3",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Accursed Spirit",
         "cost": "4",
         "type": "Creature",
@@ -568,10 +687,31 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "4",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "4",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Nightwing Shade",
         "cost": "5",
         "type": "Creature",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "5",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Minotaur Abomination",
@@ -604,6 +744,20 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "1",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "1",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Killing Glare",
         "cost": "2",
         "type": "Instant",
@@ -634,6 +788,20 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "2",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "2",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Read the Bones",
         "cost": "3",
         "type": "Sorcery",
@@ -644,6 +812,20 @@
         "cost": "3",
         "type": "Enchantment - Aura",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Mark of the Vampire",
@@ -662,6 +844,34 @@
         "cost": "4",
         "type": "Enchantment - Aura",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "4",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "5",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "5",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "6",
+        "type": "",
+        "rarity": "common",
+        "needed": true
       }
     ],
     "Red": [
@@ -682,6 +892,20 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "1",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "1",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Riot Piker",
@@ -708,6 +932,27 @@
         "rarity": "rare"
       },
       {
+        "name": "",
+        "cost": "2",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "2",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "2",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Blur Sliver",
         "cost": "3",
         "type": "Creature",
@@ -724,6 +969,13 @@
         "cost": "3",
         "type": "Creature",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Canyon Minotaur",
@@ -744,10 +996,31 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "4",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Battle Sliver",
         "cost": "5",
         "type": "Creature",
         "rarity": "uncommon"
+      },
+      {
+        "name": "",
+        "cost": "5",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "5",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Tenement Crasher",
@@ -778,6 +1051,13 @@
         "cost": "1",
         "type": "Instant",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "1",
+        "type": "",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Seismic Stomp",
@@ -822,6 +1102,20 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "3",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Chandra's Outrage",
         "cost": "4",
         "type": "Instant",
@@ -834,16 +1128,37 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "4",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Goblin Rally",
         "cost": "5",
         "type": "Sorcery",
         "rarity": "uncommon"
       },
       {
+        "name": "",
+        "cost": "5",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Explosive Impact",
         "cost": "6",
         "type": "Instant",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "6",
+        "type": "",
+        "rarity": "common",
+        "needed": true
       }
     ],
     "Green": [
@@ -864,6 +1179,20 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "uncommon"
+      },
+      {
+        "name": "",
+        "cost": "1",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "1",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Kraul Warrior",
@@ -902,6 +1231,20 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "2",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "2",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Boon Satyr",
         "cost": "3",
         "type": "Enchantment Creature",
@@ -918,6 +1261,20 @@
         "cost": "3",
         "type": "Creature",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Rumbling Baloth",
@@ -944,6 +1301,13 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "4",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Sporemound",
         "cost": "5",
         "type": "Creature",
@@ -962,10 +1326,24 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "5",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Groundshaker Sliver",
         "cost": "6",
         "type": "Creature",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "6",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Axebane Stag",
@@ -998,6 +1376,20 @@
         "rarity": "common"
       },
       {
+        "name": "",
+        "cost": "2",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "2",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Aerial Predation",
         "cost": "3",
         "type": "Instant",
@@ -1008,6 +1400,20 @@
         "cost": "3",
         "type": "Enchantment - Aura",
         "rarity": "common"
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "3",
+        "type": "",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Hunt the Weak",
@@ -1026,6 +1432,20 @@
         "cost": "5",
         "type": "Sorcery",
         "rarity": "uncommon"
+      },
+      {
+        "name": "",
+        "cost": "5",
+        "type": "",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "",
+        "cost": "6",
+        "type": "",
+        "rarity": "common",
+        "needed": true
       }
     ],
     "MultiColor": [
