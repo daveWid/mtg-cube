@@ -31,6 +31,20 @@
         "rarity": "common"
       },
       {
+        "name": "Dragon's Eye Sentry",
+        "cost": "1",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "Nyxborn Shieldmate",
+        "cost": "1",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Capashen Knight",
         "cost": "2",
         "type": "Creature",
@@ -61,22 +75,24 @@
         "rarity": "common"
       },
       {
-        "name": "Seller of Songbirds",
-        "cost": "3",
+        "name": "Ainok Bond-Kin",
+        "cost": "2",
         "type": "Creature",
-        "rarity": "common"
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "Dromoka Warrior",
+        "cost": "2",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Court Street Denizen",
         "cost": "3",
         "type": "Creature",
         "rarity": "common"
-      },
-      {
-        "name": "Steelform Sliver",
-        "cost": "3",
-        "type": "Creature",
-        "rarity": "uncommon"
       },
       {
         "name": "Sunspire Griffin",
@@ -115,6 +131,20 @@
         "rarity": "common"
       },
       {
+        "name": "Alabaster Kirin",
+        "cost": "4",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "Salt Road Patrol",
+        "cost": "4",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Serra Angel",
         "cost": "5",
         "type": "Creature",
@@ -127,10 +157,31 @@
         "rarity": "common"
       },
       {
+        "name": "Great-Horn Krushok",
+        "cost": "5",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Stonehorn Chanter",
         "cost": "6",
         "type": "Creature",
         "rarity": "uncommon"
+      },
+      {
+        "name": "War Behemoth",
+        "cost": "6",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "Aven Battle Priest",
+        "cost": "6",
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Smite",
@@ -143,6 +194,13 @@
         "cost": "1",
         "type": "Instant",
         "rarity": "common"
+      },
+      {
+        "name": "Enshrouding Mist",
+        "cost": "1",
+        "type": "Instant",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Show of Valor",
@@ -169,6 +227,27 @@
         "rarity": "common"
       },
       {
+        "name": "Kill Shot",
+        "cost": "3",
+        "type": "Instant",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "Pillar of Light",
+        "cost": "3",
+        "type": "Instant",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "Ray of Dissolution",
+        "cost": "3",
+        "type": "Instant",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Divine Verdict",
         "cost": "4",
         "type": "Instant",
@@ -187,10 +266,38 @@
         "rarity": "uncommon"
       },
       {
+        "name": "Suppression Bonds",
+        "cost": "4",
+        "type": "Enchantment - Aura",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "Siegecraft",
+        "cost": "4",
+        "type": "Enchantment - Aura",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Angelic Edict",
         "cost": "5",
         "type": "Sorcery",
         "rarity": "common"
+      },
+      {
+        "name": "Sanctified Charge",
+        "cost": "5",
+        "type": "Instant",
+        "rarity": "common",
+        "needed": true
+      },
+      {
+        "name": "Triplicate Spirits",
+        "cost": "6",
+        "type": "Sorcery",
+        "rarity": "common",
+        "needed": true
       }
     ],
     "Blue": [
