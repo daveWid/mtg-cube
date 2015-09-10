@@ -157,11 +157,10 @@
         "rarity": "common"
       },
       {
-        "name": "Great-Horn Krushok",
+        "name": "Siege Mastodon",
         "cost": "5",
         "type": "Creature",
-        "rarity": "common",
-        "needed": true
+        "rarity": "common"
       },
       {
         "name": "Stonehorn Chanter",
@@ -234,18 +233,16 @@
         "needed": true
       },
       {
-        "name": "Pillar of Light",
+        "name": "Fortify",
         "cost": "3",
         "type": "Instant",
-        "rarity": "common",
-        "needed": true
+        "rarity": "common"
       },
       {
         "name": "Ray of Dissolution",
         "cost": "3",
         "type": "Instant",
-        "rarity": "common",
-        "needed": true
+        "rarity": "common"
       },
       {
         "name": "Divine Verdict",
@@ -357,14 +354,13 @@
         "rarity": "common"
       },
       {
-        "name": "Aeronaut Tinkerer",
+        "name": "Wavecrash Triton",
         "cost": "3",
         "type": "Creature",
-        "rarity": "common",
-        "needed": true
+        "rarity": "common"
       },
       {
-        "name": "Nyxborn Triton",
+        "name": "Aeronaut Tinkerer",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
@@ -815,11 +811,10 @@
         "rarity": "common"
       },
       {
-        "name": "Festergloom",
+        "name": "Mindrot",
         "cost": "3",
         "type": "Sorcery",
-        "rarity": "common",
-        "needed": true
+        "rarity": "common"
       },
       {
         "name": "Necrobite",
@@ -1130,11 +1125,10 @@
         "rarity": "common"
       },
       {
-        "name": "Lose Calm",
+        "name": "Portent of Betrayal",
         "cost": "4",
         "type": "Sorcery",
-        "rarity": "common",
-        "needed": true
+        "rarity": "common"
       },
       {
         "name": "Goblin Rally",
@@ -1382,8 +1376,7 @@
         "name": "Defend the Hearth",
         "cost": "2",
         "type": "Instant",
-        "rarity": "common",
-        "needed": true
+        "rarity": "common"
       },
       {
         "name": "Karametra's Favor",
