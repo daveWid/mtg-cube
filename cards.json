@@ -308,7 +308,7 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Sidisi's Faithful",
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
@@ -357,14 +357,14 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Aeronaut Tinkerer",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Nyxborn Triton",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
@@ -389,7 +389,7 @@
         "rarity": "uncommon"
       },
       {
-        "name": "",
+        "name": "Chorus of the Tides",
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
@@ -402,14 +402,14 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Prescient Chimera",
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Whirlwind Adept",
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
@@ -422,7 +422,7 @@
         "rarity": "uncommon"
       },
       {
-        "name": "",
+        "name": "Benthic Giant",
         "cost": "6",
         "type": "Creature",
         "rarity": "common",
@@ -447,16 +447,16 @@
         "rarity": "uncommon"
       },
       {
-        "name": "",
+        "name": "Aqueous Form",
         "cost": "1",
-        "type": "",
+        "type": "Enchantment - Aura",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Hydrosurge",
         "cost": "1",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
@@ -485,16 +485,16 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Disdainful Stroke",
         "cost": "2",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Invisibility",
         "cost": "2",
-        "type": "",
+        "type": "Enchantment - Aura",
         "rarity": "common",
         "needed": true
       },
@@ -523,9 +523,9 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Jeskai Runemark",
         "cost": "3",
-        "type": "",
+        "type": "Enchantment - Aura",
         "rarity": "common",
         "needed": true
       },
@@ -548,16 +548,16 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Griptide",
         "cost": "4",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Taigam's Strike",
         "cost": "4",
-        "type": "",
+        "type": "Sorcery",
         "rarity": "common",
         "needed": true
       },
@@ -574,9 +574,9 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Ojutai's Summons",
         "cost": "5",
-        "type": "",
+        "type": "Sorcery",
         "rarity": "common",
         "needed": true
       },
@@ -661,14 +661,14 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Servant of Tymaret",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Witch's Familiar",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
@@ -687,14 +687,14 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Alesha's Vanguard",
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Unyielding Krumar",
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
@@ -707,7 +707,7 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Rotting Mastodon",
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
@@ -744,16 +744,16 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Coat with Venom",
         "cost": "1",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Molting Snakeskin",
         "cost": "1",
-        "type": "",
+        "type": "Enchantment - Aura",
         "rarity": "common",
         "needed": true
       },
@@ -788,16 +788,16 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Ancestral Vengeance",
         "cost": "2",
-        "type": "",
+        "type": "Enchantment - Aura",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Eternal Thirst",
         "cost": "2",
-        "type": "",
+        "type": "Enchantment - Aura",
         "rarity": "common",
         "needed": true
       },
@@ -814,16 +814,16 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Festergloom",
         "cost": "3",
-        "type": "",
+        "type": "Sorcery",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Necrobite",
         "cost": "3",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
@@ -846,30 +846,30 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Flatten",
         "cost": "4",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Flesh to Dust",
         "cost": "5",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Unmake the Graves",
         "cost": "5",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
-        "cost": "6",
-        "type": "",
+        "name": "Covenant of Blood",
+        "cost": "7",
+        "type": "Sorcery",
         "rarity": "common",
         "needed": true
       }
@@ -894,14 +894,14 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Satyr Hoplite",
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Akroan Crusader",
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
@@ -932,21 +932,21 @@
         "rarity": "rare"
       },
       {
-        "name": "",
+        "name": "Borderland Marauder",
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Mardu Scout",
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Valley Dasher",
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
@@ -971,7 +971,7 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Fiery Hellhound",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
@@ -996,7 +996,7 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Sabertooth Outrider",
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
@@ -1009,14 +1009,14 @@
         "rarity": "uncommon"
       },
       {
-        "name": "",
+        "name": "Prickleboar",
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Pharagax Giant",
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
@@ -1053,9 +1053,9 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Dragon Mantle",
         "cost": "1",
-        "type": "",
+        "type": "Enchantment - Aura",
         "rarity": "common",
         "needed": true
       },
@@ -1102,16 +1102,16 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Barrage of Boulders",
         "cost": "3",
-        "type": "",
+        "type": "Sorcery",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Fearsome Temper",
         "cost": "3",
-        "type": "",
+        "type": "Enchantment - Aura",
         "rarity": "common",
         "needed": true
       },
@@ -1128,9 +1128,9 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Lose Calm",
         "cost": "4",
-        "type": "",
+        "type": "Sorcery",
         "rarity": "common",
         "needed": true
       },
@@ -1141,9 +1141,9 @@
         "rarity": "uncommon"
       },
       {
-        "name": "",
+        "name": "Flurry of Horns",
         "cost": "5",
-        "type": "",
+        "type": "Sorcery",
         "rarity": "common",
         "needed": true
       },
@@ -1154,9 +1154,9 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Blastfire Bolt",
         "cost": "6",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       }
@@ -1181,14 +1181,14 @@
         "rarity": "uncommon"
       },
       {
-        "name": "",
+        "name": "Caustic Caterpillar",
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Sedge Scorpion",
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
@@ -1231,14 +1231,14 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Archers' Parapet",
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Atarka Beastbreaker",
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
@@ -1263,14 +1263,14 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Alpine Grizzly",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Frontier Mastodon",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
@@ -1301,7 +1301,7 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Pheres-Band Tromper",
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
@@ -1326,7 +1326,7 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Nessian Asp",
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
@@ -1339,7 +1339,7 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Carnivorous Moss-Beast",
         "cost": "6",
         "type": "Creature",
         "rarity": "common",
@@ -1376,16 +1376,16 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Defend the Hearth",
         "cost": "2",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Karametra's Favor",
         "cost": "2",
-        "type": "",
+        "type": "Enchantment - Aura",
         "rarity": "common",
         "needed": true
       },
@@ -1402,16 +1402,16 @@
         "rarity": "common"
       },
       {
-        "name": "",
+        "name": "Awaken the Bear",
         "cost": "3",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       },
       {
-        "name": "",
+        "name": "Map the Wastes",
         "cost": "3",
-        "type": "",
+        "type": "Sorcery",
         "rarity": "common",
         "needed": true
       },
@@ -1428,22 +1428,22 @@
         "rarity": "common"
       },
       {
+        "name": "Market Festival",
+        "cost": "4",
+        "type": "Enchantment - Aura",
+        "rarity": "common",
+        "needed": true
+      },
+      {
         "name": "Enlarge",
         "cost": "5",
         "type": "Sorcery",
         "rarity": "uncommon"
       },
       {
-        "name": "",
+        "name": "Pinion Feast",
         "cost": "5",
-        "type": "",
-        "rarity": "common",
-        "needed": true
-      },
-      {
-        "name": "",
-        "cost": "6",
-        "type": "",
+        "type": "Instant",
         "rarity": "common",
         "needed": true
       }
