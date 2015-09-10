@@ -2,12 +2,12 @@
   "metadata": {
     "generated": 1441454947522,
     "search": {
-      "White": "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cmc+&action=advanced&format=[\"Standard\"]&color=[W]&rarity=[C]",
-      "Blue": "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cmc+&action=advanced&format=[\"Standard\"]&color=[U]&rarity=[C]",
-      "Black": "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cmc+&action=advanced&format=[\"Standard\"]&color=[B]&rarity=[C]",
-      "Red": "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cmc+&action=advanced&format=[\"Standard\"]&color=[R]&rarity=[C]",
-      "Green": "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cmc+&action=advanced&format=[\"Standard\"]&color=[G]&rarity=[C]",
-      "Colorless": "http://gatherer.wizards.com/Pages/Search/Default.aspx?sort=cmc+&action=advanced&format=[\"Standard\"]&color=[C]&rarity=[C]"
+      "White": "W",
+      "Blue": "U",
+      "Black": "B",
+      "Red": "R",
+      "Green": "G",
+      "Colorless": "C"
     }
   },
   "cards": {
