@@ -43,8 +43,13 @@
 
 	<div class="metadata"></div>
 
-	<div class="actions">
-		<a href="#" id="showNeeded">Only Show Needed</a>
+	<div class="filter">
+		<select id="filterBy">
+			<option value="clear">-- Filter --</option>
+			<option value="needed">Show Only Needed</option>
+			<option value="dtk">Dragons of Tarkir</option>
+			<option value="ori">Origins</option>
+		</select>
 	</div>
 
 	<div id="card-preview"></div>
@@ -70,7 +75,7 @@
 
 	<ul class="cards">
 	{{#cards}}
-		<li class="{{rarity}}{{#needed}} needed{{/needed}}">
+		<li class="{{rarity}}{{#needed}} needed{{/needed}}"{{#set}} data-set="{{set}}"{{/set}}>
 			<div class="cost">{{cost}}</div>
 			{{#name}}
 			<a href="http://gatherer.wizards.com/Pages/Search/Default.aspx?name={{link_name}}" class="card" data-preview="{{preview_name}}">{{name}}</a>
@@ -93,6 +98,59 @@
 (function(){
 	// Global vars
 	var cardPreview = document.getElementById('card-preview');
+
+	/* // Filter Functions ////////////////////////////////////////////////// */
+	var filters = {
+		/**
+		 * Clear all the filters
+		 */
+		clear: function(){
+			var cards = document.querySelectorAll('.cards > li.hide');
+			for (var i = 0, len = cards.length; i < len; i++){
+				cards[i].classList.remove('hide');
+			}
+		},
+
+		/**
+		 * Only show the needed cards
+		 */
+		needed: function(){
+			var cards = document.querySelectorAll('.cards > li');
+			for (var i = 0, len = cards.length; i < len; i++){
+				if ( ! cards[i].classList.contains('needed')) {
+					cards[i].classList.add('hide');
+				}
+			}
+		},
+
+		/**
+		 * Only show the cards in the Dragons of Tarkir set.
+		 */
+		dtk: function(){
+			filters.bySet('DTK');
+		},
+
+		/**
+		 * Only show the cards in the Origins set.
+		 */
+		ori: function(){
+			filters.bySet('ORI');
+		},
+
+		/**
+		 * Filters the list by the given set.
+		 *
+		 * @param  {String} setName The set to filter on
+		 */
+		bySet: function(setName){
+			var cards = document.querySelectorAll('.cards > li');
+			for (var i = 0, len = cards.length; i < len; i++){
+				if ( ! cards[i].dataset.hasOwnProperty('set') || cards[i].dataset.set !== setName) {
+					cards[i].classList.add('hide');
+				}
+			}
+		}
+	};
 
 	/**
 	 * Empties the given node.
@@ -223,15 +281,8 @@
 
 		document.querySelector('.metadata').innerHTML = Mustache.render(metadataTemplate, getMetadata());
 
-		document.getElementById('showNeeded').addEventListener('click', function(e){
-			e.preventDefault();
-
-			var cards = document.querySelectorAll('.cards > li');
-			for (var i = 0, len = cards.length; i < len; i++){
-				if ( ! cards[i].classList.contains('needed')) {
-					cards[i].classList.add('hide');
-				}
-			}
+		document.getElementById('filterBy').addEventListener('change', function(e){
+			filters[e.target.value]();
 		});
 
 		document.querySelector('body').addEventListener('keyup', function(e){

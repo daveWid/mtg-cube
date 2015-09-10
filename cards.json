@@ -35,7 +35,8 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       },
       {
         "name": "Nyxborn Shieldmate",
@@ -86,7 +87,8 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       },
       {
         "name": "Court Street Denizen",
@@ -180,7 +182,8 @@
         "cost": "6",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "ORI"
       },
       {
         "name": "Smite",
@@ -199,7 +202,8 @@
         "cost": "1",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "ORI"
       },
       {
         "name": "Show of Valor",
@@ -267,7 +271,8 @@
         "cost": "4",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "ORI"
       },
       {
         "name": "Siegecraft",
@@ -309,7 +314,8 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       },
       {
         "name": "Welkin Tern",
@@ -555,7 +561,8 @@
         "cost": "4",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       },
       {
         "name": "Psychic Spiral",
@@ -574,7 +581,8 @@
         "cost": "5",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       },
       {
         "name": "Rise of Eagles",
@@ -745,7 +753,8 @@
         "cost": "1",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       },
       {
         "name": "Molting Snakeskin",
@@ -846,14 +855,16 @@
         "cost": "4",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       },
       {
         "name": "Flesh to Dust",
         "cost": "5",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "ORI"
       },
       {
         "name": "Unmake the Graves",
@@ -926,7 +937,8 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "ORI"
       },
       {
         "name": "Borderland Marauder",
@@ -972,7 +984,8 @@
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "ORI"
       },
       {
         "name": "Canyon Minotaur",
@@ -997,7 +1010,8 @@
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       },
       {
         "name": "Battle Sliver",
@@ -1010,7 +1024,8 @@
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "ORI"
       },
       {
         "name": "Pharagax Giant",
@@ -1181,7 +1196,8 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "ORI"
       },
       {
         "name": "Sedge Scorpion",
@@ -1238,7 +1254,8 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       },
       {
         "name": "Netcaster Spider",
@@ -1441,7 +1458,8 @@
         "cost": "5",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "DTK"
       }
     ],
     "MultiColor": [
