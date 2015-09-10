@@ -581,10 +581,11 @@
         "needed": true
       },
       {
-        "name": "Dismiss into Dream",
+        "name": "Rise of Eagles",
         "cost": "6",
-        "type": "Enchantment",
-        "rarity": "rare"
+        "type": "Sorcery",
+        "rarity": "common",
+        "needed": true
       }
     ],
     "Black": [
@@ -926,10 +927,11 @@
         "rarity": "common"
       },
       {
-        "name": "Ash Zealot",
+        "name": "Mage-Ring Bully",
         "cost": "2",
         "type": "Creature",
-        "rarity": "rare"
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Borderland Marauder",
@@ -1245,10 +1247,11 @@
         "needed": true
       },
       {
-        "name": "Boon Satyr",
+        "name": "Netcaster Spider",
         "cost": "3",
-        "type": "Enchantment Creature",
-        "rarity": "rare"
+        "type": "Creature",
+        "rarity": "common",
+        "needed": true
       },
       {
         "name": "Brindle Boar",
