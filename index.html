@@ -233,6 +233,12 @@
 				}
 			}
 		});
+
+		document.querySelector('body').addEventListener('keyup', function(e){
+			if (e.keyCode === 27) { // Escape
+				empty(cardPreview);
+			}
+		});
 	};
 
 	/* // Grab the card data //////////////////////////////////////////////// */
