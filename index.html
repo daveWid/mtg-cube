@@ -29,6 +29,8 @@
 			text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
 		}
 
+		.hide { display: none; }
+
 		.common > .cost  { background-color: #000;}
 		.uncommon > .cost { background-color: #6C8B98; }
 		.rare > .cost    { background-color: #9A8048; }
@@ -40,6 +42,10 @@
 	<h1>Dave's Cube</h1>
 
 	<div class="metadata"></div>
+
+	<div class="actions">
+		<a href="#" id="showNeeded">Only Show Needed</a>
+	</div>
 
 	<div id="card-preview"></div>
 
@@ -216,6 +222,17 @@
 		}
 
 		document.querySelector('.metadata').innerHTML = Mustache.render(metadataTemplate, getMetadata());
+
+		document.getElementById('showNeeded').addEventListener('click', function(e){
+			e.preventDefault();
+
+			var cards = document.querySelectorAll('.cards > li');
+			for (var i = 0, len = cards.length; i < len; i++){
+				if ( ! cards[i].classList.contains('needed')) {
+					cards[i].classList.add('hide');
+				}
+			}
+		});
 	};
 
 	/* // Grab the card data //////////////////////////////////////////////// */
