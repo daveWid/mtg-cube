@@ -31,6 +31,20 @@
 
 		.hide { display: none; }
 
+		.filters {
+			list-style-type: none;
+			padding-left: 0;
+		}
+
+		.filters > li {
+			display: inline-block;
+		}
+
+		.listing {
+			width: 50%;
+			height: 5em;
+		}
+
 		.common > .cost  { background-color: #000;}
 		.uncommon > .cost { background-color: #6C8B98; }
 		.rare > .cost    { background-color: #9A8048; }
@@ -43,13 +57,67 @@
 
 	<div class="metadata"></div>
 
-	<div class="filter">
-		<select id="filterBy">
-			<option value="clear">-- Filter --</option>
-			<option value="needed">Show Only Needed</option>
-			<option value="dtk">Dragons of Tarkir</option>
-			<option value="ori">Origins</option>
-		</select>
+	<div>
+		<h4>Filters</h4>
+		<ul class="filters">
+			<li>
+				<label>
+					<input type="checkbox" data-filter="needed" value="needed" />
+					Show Only Needed
+				</label> 
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" data-filter="set" value="THS" checked />
+					Theros
+				</label> 
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" data-filter="set" value="BNG" checked />
+					Born of the Gods
+				</label> 
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" data-filter="set" value="JOU" checked />
+					Journey into Nyx
+				</label> 
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" data-filter="set" value="KTK" checked />
+					Khans of Tarkir
+				</label> 
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" data-filter="set" value="FRF" checked />
+					Fate Reforged
+				</label> 
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" data-filter="set" value="DTK" checked />
+					Dragons of Tarkir
+				</label> 
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" data-filter="set" value="M15" checked />
+					Core 2015
+				</label> 
+			</li>
+			<li>
+				<label>
+					<input type="checkbox" data-filter="set" value="ORI" checked />
+					Origins
+				</label> 
+			</li>
+		</ul>
+
+		<p><button id="listNeeded">List Needed</button></p>
+		<textarea class="hide listing" id="neededDump"></textarea>
 	</div>
 
 	<div id="card-preview"></div>
@@ -113,40 +181,40 @@
 
 		/**
 		 * Only show the needed cards
+		 *
+		 * @param {Event} event  The change event
 		 */
-		needed: function(){
+		needed: function(event){
+			var func = 'remove';
+			if (event.target.checked === true) {
+				func = 'add';
+			}
+
 			var cards = document.querySelectorAll('.cards > li');
 			for (var i = 0, len = cards.length; i < len; i++){
 				if ( ! cards[i].classList.contains('needed')) {
-					cards[i].classList.add('hide');
+					cards[i].classList[func]('hide');
 				}
 			}
 		},
 
 		/**
-		 * Only show the cards in the Dragons of Tarkir set.
-		 */
-		dtk: function(){
-			filters.bySet('DTK');
-		},
-
-		/**
-		 * Only show the cards in the Origins set.
-		 */
-		ori: function(){
-			filters.bySet('ORI');
-		},
-
-		/**
 		 * Filters the list by the given set.
 		 *
-		 * @param  {String} setName The set to filter on
+		 * @param  {Event} event  The change event
 		 */
-		bySet: function(setName){
+		bySet: function(event){
+			var setName = event.target.value;
+			var func = 'add';
+
+			if (event.target.checked === true) {
+				func = 'remove';
+			}
+
 			var cards = document.querySelectorAll('.cards > li');
 			for (var i = 0, len = cards.length; i < len; i++){
-				if ( ! cards[i].dataset.hasOwnProperty('set') || cards[i].dataset.set !== setName) {
-					cards[i].classList.add('hide');
+				if (cards[i].dataset.hasOwnProperty('set') && cards[i].dataset.set === setName) {
+					cards[i].classList[func]('hide');
 				}
 			}
 		}
@@ -281,8 +349,24 @@
 
 		document.querySelector('.metadata').innerHTML = Mustache.render(metadataTemplate, getMetadata());
 
-		document.getElementById('filterBy').addEventListener('change', function(e){
-			filters[e.target.value]();
+		document.querySelector('input[data-filter="needed"]').addEventListener('change', filters.needed);
+
+		var sets = document.querySelectorAll('input[data-filter="set"]');
+		for (var i = 0, len = sets.length; i < len; i++) {
+			sets[i].addEventListener('change', filters.bySet);
+		}
+
+		document.getElementById('listNeeded').addEventListener('click', function(e){
+			e.preventDefault();
+
+			var textarea = document.getElementById('neededDump');
+			textarea.value = '';
+			textarea.classList.remove('hide');
+
+			var visible = document.querySelectorAll('.cards > li:not([class~="hide"]) a');
+			for (var i = 0, len = visible.length; i < len; i++) {
+				textarea.value += visible[i].textContent + "\n";
+			}
 		});
 
 		document.querySelector('body').addEventListener('keyup', function(e){
