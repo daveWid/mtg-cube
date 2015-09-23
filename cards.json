@@ -43,7 +43,6 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "BNG"
       },
       {
@@ -81,7 +80,6 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "KTK"
       },
       {
@@ -139,7 +137,6 @@
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "KTK"
       },
       {
@@ -147,7 +144,6 @@
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "KTK"
       },
       {
@@ -179,7 +175,6 @@
         "cost": "6",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "KTK"
       },
       {
@@ -239,7 +234,6 @@
         "cost": "3",
         "type": "Instant",
         "rarity": "common",
-        "needed": true,
         "set": "KTK"
       },
       {
@@ -285,7 +279,6 @@
         "cost": "4",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true,
         "set": "KTK"
       },
       {
@@ -299,7 +292,6 @@
         "cost": "5",
         "type": "Instant",
         "rarity": "common",
-        "needed": true,
         "set": "M15"
       },
       {
@@ -307,7 +299,6 @@
         "cost": "6",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true,
         "set": "M15"
       }
     ],
@@ -404,7 +395,7 @@
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "BNG"
       },
       {
         "name": "Messenger Drake",
@@ -417,14 +408,14 @@
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Whirlwind Adept",
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Skyline Predator",
@@ -462,14 +453,14 @@
         "cost": "1",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Hydrosurge",
         "cost": "1",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "set": "M15"
       },
       {
         "name": "Inaction Injunction",
@@ -500,7 +491,7 @@
         "cost": "2",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Invisibility",
@@ -538,7 +529,7 @@
         "cost": "3",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "FRF"
       },
       {
         "name": "Aetherize",
@@ -563,7 +554,7 @@
         "cost": "4",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Taigam's Strike",
@@ -598,7 +589,7 @@
         "cost": "6",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true
+        "set": "JOU"
       }
     ],
     "Black": [
@@ -679,7 +670,7 @@
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "BNG"
       },
       {
         "name": "Witch's Familiar",
@@ -705,14 +696,14 @@
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "FRF"
       },
       {
         "name": "Unyielding Krumar",
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Nightwing Shade",
@@ -725,7 +716,7 @@
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Minotaur Abomination",
@@ -770,7 +761,7 @@
         "cost": "1",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Killing Glare",
@@ -807,14 +798,14 @@
         "cost": "2",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "FRF"
       },
       {
         "name": "Eternal Thirst",
         "cost": "2",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "M15"
       },
       {
         "name": "Read the Bones",
@@ -839,7 +830,7 @@
         "cost": "3",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "set": "M15"
       },
       {
         "name": "Mark of the Vampire",
@@ -914,14 +905,14 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "JOU"
       },
       {
         "name": "Akroan Crusader",
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Riot Piker",
@@ -954,21 +945,21 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "M15"
       },
       {
         "name": "Mardu Scout",
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "FRF"
       },
       {
         "name": "Valley Dasher",
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Blur Sliver",
@@ -1041,7 +1032,7 @@
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "BNG"
       },
       {
         "name": "Tenement Crasher",
@@ -1078,7 +1069,7 @@
         "cost": "1",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Seismic Stomp",
@@ -1127,14 +1118,14 @@
         "cost": "3",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Fearsome Temper",
         "cost": "3",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "BNG"
       },
       {
         "name": "Chandra's Outrage",
@@ -1165,7 +1156,7 @@
         "cost": "5",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true
+        "set": "JOU"
       },
       {
         "name": "Explosive Impact",
@@ -1213,7 +1204,7 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Kraul Warrior",
@@ -1256,7 +1247,7 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Atarka Beastbreaker",
@@ -1271,7 +1262,7 @@
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "M15"
       },
       {
         "name": "Brindle Boar",
@@ -1290,14 +1281,14 @@
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Frontier Mastodon",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "FRF"
       },
       {
         "name": "Rumbling Baloth",
@@ -1328,7 +1319,7 @@
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "BNG"
       },
       {
         "name": "Sporemound",
@@ -1353,7 +1344,7 @@
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Groundshaker Sliver",
@@ -1366,7 +1357,7 @@
         "cost": "6",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "M15"
       },
       {
         "name": "Axebane Stag",
@@ -1409,7 +1400,7 @@
         "cost": "2",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "BNG"
       },
       {
         "name": "Aerial Predation",
@@ -1428,14 +1419,14 @@
         "cost": "3",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "set": "KTK"
       },
       {
         "name": "Map the Wastes",
         "cost": "3",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true
+        "set": "FRF"
       },
       {
         "name": "Hunt the Weak",
@@ -1454,7 +1445,7 @@
         "cost": "4",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "JOU"
       },
       {
         "name": "Enlarge",
@@ -1573,7 +1564,7 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "uncommon",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Mortus Strider",
