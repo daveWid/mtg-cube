@@ -1,5 +1,9 @@
 # Changelog
 
+## 2015-09-22
+
+Getting this repo setup in github. View the actual site at http://davewid.github.io/mtg-cube/.
+
 ## 2015-09-09
 
 ### In
