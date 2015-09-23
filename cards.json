@@ -43,7 +43,8 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "BNG"
       },
       {
         "name": "Capashen Knight",
@@ -80,7 +81,8 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "KTK"
       },
       {
         "name": "Dromoka Warrior",
@@ -137,14 +139,16 @@
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "KTK"
       },
       {
         "name": "Salt Road Patrol",
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "KTK"
       },
       {
         "name": "Serra Angel",
@@ -175,7 +179,8 @@
         "cost": "6",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "KTK"
       },
       {
         "name": "Aven Battle Priest",
@@ -234,7 +239,8 @@
         "cost": "3",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "KTK"
       },
       {
         "name": "Fortify",
@@ -279,7 +285,8 @@
         "cost": "4",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "KTK"
       },
       {
         "name": "Angelic Edict",
@@ -292,14 +299,16 @@
         "cost": "5",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "M15"
       },
       {
         "name": "Triplicate Spirits",
         "cost": "6",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true
+        "needed": true,
+        "set": "M15"
       }
     ],
     "Blue": [
