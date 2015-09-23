@@ -10,9 +10,11 @@ Lots of stuff, filling out the cube to be 45 per color.
 
 Removing Rares.
 
-*  Rise of Eagles   > Dismiss into Dream
-*  Mage-Ring Bully  > Ash Zealot
-*  Netcaster Spider > Boon Satyr
+| In                | Out                 |
+|-------------------|---------------------|
+| Rise of Eagles    | Dismiss into Dream  |
+| Mage-Ring Bully   | Ash Zealot          |
+| Netcaster Spider  | Boon Satyr          |
 
 ## 2015-09-08
 
