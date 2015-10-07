@@ -35,7 +35,6 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "DTK"
       },
       {
@@ -87,7 +86,6 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "DTK"
       },
       {
@@ -97,10 +95,11 @@
         "rarity": "common"
       },
       {
-        "name": "Sunspire Griffin",
+        "name": "Misthoof Kirin",
         "cost": "3",
         "type": "Creature",
-        "rarity": "common"
+        "rarity": "common",
+        "set": "DTK"
       },
       {
         "name": "Master of Diversion",
@@ -147,10 +146,11 @@
         "set": "KTK"
       },
       {
-        "name": "Serra Angel",
+        "name": "Sandstorm Charger",
         "cost": "5",
         "type": "Creature",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "DTK"
       },
       {
         "name": "Heavy Infantry",
@@ -182,7 +182,6 @@
         "cost": "6",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "ORI"
       },
       {
@@ -198,12 +197,11 @@
         "rarity": "common"
       },
       {
-        "name": "Enshrouding Mist",
+        "name": "Glaring Aegis",
         "cost": "1",
-        "type": "Instant",
+        "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true,
-        "set": "ORI"
+        "set": "DTK"
       },
       {
         "name": "Show of Valor",
@@ -271,7 +269,6 @@
         "cost": "4",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true,
         "set": "ORI"
       },
       {
@@ -314,7 +311,6 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "DTK"
       },
       {
@@ -339,13 +335,15 @@
         "name": "Sigiled Starfish",
         "cost": "2",
         "type": "Creature",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "JOU"
       },
       {
-        "name": "Courtly Provocateur",
+        "name": "Aeronaut Tinkerer",
         "cost": "3",
         "type": "Creature",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "M15"
       },
       {
         "name": "Wind Drake",
@@ -366,11 +364,11 @@
         "rarity": "common"
       },
       {
-        "name": "Aeronaut Tinkerer",
+        "name": "Nimbis Naiad",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Separatist Voidmage",
@@ -428,7 +426,7 @@
         "cost": "6",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "THS"
       },
       {
         "name": "Tome Scour",
@@ -443,10 +441,11 @@
         "rarity": "common"
       },
       {
-        "name": "Blustersquall",
+        "name": "Diminish",
         "cost": "1",
         "type": "Instant",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "M11"
       },
       {
         "name": "Aqueous Form",
@@ -469,10 +468,11 @@
         "rarity": "common"
       },
       {
-        "name": "Syncopate",
+        "name": "Skygames",
         "cost": "2",
-        "type": "Instant",
-        "rarity": "uncommon"
+        "type": "Enchantment - Aura",
+        "rarity": "common",
+        "set": "GTC"
       },
       {
         "name": "Downpour",
@@ -498,7 +498,7 @@
         "cost": "2",
         "type": "Enchantment - Aura",
         "rarity": "common",
-        "needed": true
+        "set": "M15"
       },
       {
         "name": "Paralyzing Grasp",
@@ -541,7 +541,7 @@
         "name": "Last Thoughts",
         "cost": "4",
         "type": "Sorcery",
-        "rarity": "uncommon"
+        "rarity": "common"
       },
       {
         "name": "Way of the Thief",
@@ -561,7 +561,6 @@
         "cost": "4",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true,
         "set": "DTK"
       },
       {
@@ -581,7 +580,6 @@
         "cost": "5",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true,
         "set": "DTK"
       },
       {
@@ -612,10 +610,11 @@
         "rarity": "common"
       },
       {
-        "name": "Gnawing Zombie",
+        "name": "Qarsi Sadist",
         "cost": "2",
         "type": "Creature",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "DTK"
       },
       {
         "name": "Fleshmad Steed",
@@ -654,10 +653,11 @@
         "rarity": "common"
       },
       {
-        "name": "Gateway Shade",
+        "name": "Witch's Familar",
         "cost": "3",
         "type": "Creature",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "M15"
       },
       {
         "name": "Nantuko Husk",
@@ -673,11 +673,11 @@
         "set": "BNG"
       },
       {
-        "name": "Witch's Familiar",
+        "name": "Hired Torturer",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
-        "needed": true
+        "set": "DGM"
       },
       {
         "name": "Accursed Spirit",
@@ -753,7 +753,6 @@
         "cost": "1",
         "type": "Instant",
         "rarity": "common",
-        "needed": true,
         "set": "DTK"
       },
       {
@@ -855,7 +854,6 @@
         "cost": "4",
         "type": "Instant",
         "rarity": "common",
-        "needed": true,
         "set": "DTK"
       },
       {
@@ -863,22 +861,22 @@
         "cost": "5",
         "type": "Instant",
         "rarity": "common",
-        "needed": true,
-        "set": "ORI"
+        "set": "M15"
       },
       {
         "name": "Unmake the Graves",
         "cost": "5",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "set": "M15",
+        "foil": true
       },
       {
         "name": "Covenant of Blood",
         "cost": "7",
         "type": "Sorcery",
         "rarity": "common",
-        "needed": true
+        "set": "M15"
       }
     ],
     "Red": [
@@ -933,12 +931,11 @@
         "rarity": "common"
       },
       {
-        "name": "Mage-Ring Bully",
+        "name": "Deathbellow Raider",
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
-        "set": "ORI"
+        "set": "THS"
       },
       {
         "name": "Borderland Marauder",
@@ -980,12 +977,11 @@
         "rarity": "common"
       },
       {
-        "name": "Fiery Hellhound",
+        "name": "Ember Beast",
         "cost": "3",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
-        "set": "ORI"
+        "set": "GTC"
       },
       {
         "name": "Canyon Minotaur",
@@ -1006,12 +1002,11 @@
         "rarity": "common"
       },
       {
-        "name": "Sabertooth Outrider",
+        "name": "Cobblebrute",
         "cost": "4",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
-        "set": "DTK"
+        "set": "RTR"
       },
       {
         "name": "Battle Sliver",
@@ -1024,7 +1019,6 @@
         "cost": "5",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "ORI"
       },
       {
@@ -1169,7 +1163,7 @@
         "cost": "6",
         "type": "Instant",
         "rarity": "common",
-        "needed": true
+        "set": "M15"
       }
     ],
     "Green": [
@@ -1196,7 +1190,6 @@
         "cost": "1",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "ORI"
       },
       {
@@ -1213,10 +1206,11 @@
         "rarity": "common"
       },
       {
-        "name": "Manaweft Sliver",
+        "name": "Guardian Shield-Bearer",
         "cost": "2",
         "type": "Creature",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "DTK"
       },
       {
         "name": "Predatory Sliver",
@@ -1254,7 +1248,6 @@
         "cost": "2",
         "type": "Creature",
         "rarity": "common",
-        "needed": true,
         "set": "DTK"
       },
       {
@@ -1297,10 +1290,11 @@
         "rarity": "common"
       },
       {
-        "name": "Briarpack Alpha",
+        "name": "Aerie Bowmasters",
         "cost": "4",
         "type": "Creature",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "DTK"
       },
       {
         "name": "Crowned Ceratok",
@@ -1458,7 +1452,6 @@
         "cost": "5",
         "type": "Instant",
         "rarity": "common",
-        "needed": true,
         "set": "DTK"
       }
     ],
@@ -1570,7 +1563,8 @@
         "name": "Mortus Strider",
         "cost": "3",
         "type": "Creature",
-        "rarity": "common"
+        "rarity": "common",
+        "foil": true
       },
       {
         "name": "Hydroform",
@@ -1647,10 +1641,11 @@
         "rarity": "common"
       },
       {
-        "name": "Accorder's Shield",
+        "name": "Spidersilk Net",
         "cost": "0",
         "type": "Equipment",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "DTK"
       },
       {
         "name": "Witches' Eye",
@@ -1689,10 +1684,11 @@
         "rarity": "common"
       },
       {
-        "name": "Ring of Valkas",
+        "name": "Vial of Dragonfire",
         "cost": "2",
-        "type": "Equipment",
-        "rarity": "uncommon"
+        "type": "Artifact",
+        "rarity": "common",
+        "set": "DTK"
       },
       {
         "name": "Veteran's Sidearm",
@@ -1719,10 +1715,11 @@
         "rarity": "common"
       },
       {
-        "name": "Burnished Hart",
+        "name": "Armored Transport",
         "cost": "3",
         "type": "Creature",
-        "rarity": "uncommon"
+        "rarity": "common",
+        "set": "GTC"
       },
       {
         "name": "Sliver Construct",
